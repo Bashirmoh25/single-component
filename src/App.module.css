@@ -1,0 +1,44 @@
+
+#root {
+--Cyan: hsl(179, 62%, 43%);
+--BrightYellow: hsl(71, 73%, 54%);
+--LightGray: hsl(204, 43%, 93%);
+--GrayishBlue: hsl(218, 22%, 67%);
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+ /* font-family: karla, sans-serif;*/
+
+}
+@font-face {
+  font-family: karla, sans-serif;
+  src: url(https://fonts.google.com/specimen/Karla);
+}
+.paraText{
+  color: var(--GrayishBlue);
+  font-weight: 400;
+}
+.general{
+ 
+  padding-inline: 2rem;
+}
+.join{
+  color: var(--BrightYellow);
+}
+
+h2{
+  color: cyan;
+}
+
+.sm{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+ 
+}
+.large{
+ 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
